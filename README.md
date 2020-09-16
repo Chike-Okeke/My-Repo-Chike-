@@ -2,7 +2,6 @@
 
 The files in this repository were used to configure the network depicted below.
 
-<<<<<<< HEAD
 ![Network Diagram](Images/Network_Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _yml and configuration____ file may be used to install only certain pieces of it, such as Filebeat.
@@ -76,14 +75,12 @@ This document contains the following details:
   - Beats in Use
   - Machines Being Monitored
 - How to Use the Ansible Build
->>>>>>> cb9aab41cc562c72ea416a556c2a4067f518c3e9
 
 
 ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-<<<<<<< HEAD
 Load balancing ensures that the application will be highly available in addition to restricting traffic to the network. 
 
 
@@ -108,17 +105,14 @@ Answer : available ,traffic
   Answer: Automation, Security, Network Segmentation, 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
->>>>>>> cb9aab41cc562c72ea416a556c2a4067f518c3e9
 - What does Filebeat watch for?_ Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 
 - What does Metricbeat record?_  Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
-<<<<<<< HEAD
 
 =======
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
->>>>>>> cb9aab41cc562c72ea416a556c2a4067f518c3e9
 
 | Name                 | Function     | IP Address               | Operating System |
 |----------------------|----------    |--------------------------|------------------|
@@ -126,7 +120,6 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Web1                 |Web Server    | 10.0.0.5                 | Linux            |
 | Web2                 |Web Server    | 10.0.0.6                 | Linux            |
 | ACME-VM1             |ELK Server    | 10.1.0.4 /52.138.103.192 | Linux            |
-<<<<<<< HEAD
 | Load Balancer        |Load Balancer | Static  IP               | Linux            |
 | Workstation          |Access Control| External IP              | Linux            |
 
@@ -157,13 +150,12 @@ Follow this step to test the instances of the redundancy for Web1 and Web2 Virtu
 =======
 | Load Balancer        |Load Balancer | Dynamic IP               | Linux            |
 | Workstation          |Access Control| 64.231.21.12             | Linux            |
->>>>>>> cb9aab41cc562c72ea416a556c2a4067f518c3e9
+
 
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
 
-<<<<<<< HEAD
 Only the Elk Server machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
 
@@ -176,13 +168,11 @@ Only the _____ machine can accept connections from the Internet. Access to this 
 
 Machines within the network can only be accessed by _____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
->>>>>>> cb9aab41cc562c72ea416a556c2a4067f518c3e9
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible  | Allowed IP Addresses              |
 |----------|----------------------|-----------------------------------|
-<<<<<<< HEAD
 | Jump Box |      No              | MyPublicIPAddress on SSH 22       |
 |   Web1   |      No              |   10.0.0.4 on SSH 22              |
 |   Web2   |      No              |   10.0.0.4 on SSH 22              |
