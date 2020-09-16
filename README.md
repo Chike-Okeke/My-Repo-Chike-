@@ -475,4 +475,3 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 root#: ansible-playbook playbook.yml
->>>>>>> cb9aab41cc562c72ea416a556c2a4067f518c3e9
